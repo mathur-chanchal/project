@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Time Table</title>
+  <style>
+    body {
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(135deg, #e9c2e0, #fce4ec);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px;
+      min-height: 100vh;
+    }
+
+    h2 {
+      margin-bottom: 25px;
+      font-size: 32px;
+      font-weight: bold;
+      color: #2c3e50;
+      text-transform: uppercase;
+      letter-spacing: 1.5px;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.15);
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 85%;
+      max-width: 950px;
+      background: #ffffff;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #e0e0e0;
+      padding: 16px;
+      text-align: center;
+      font-size: 16px;
+    }
+
+    th {
+      background: linear-gradient(135deg, #3f043f, #f542dd);
+      color: #ffffff;
+      font-weight: 600;
+      letter-spacing: 1px;
+    }
+
+    td {
+      color: #2c3e50;
+      transition: background 0.3s ease, transform 0.2s ease;
+    }
+
+    tr:nth-child(even) td {
+      background: #f9f9f9;
+    }
+
+    tr:hover td {
+      background: #bbdefb;
+      transform: scale(1.02);
+    }
+
+    td:first-letter {
+      font-weight: bold;
+      color: #041e38;
+    }
+  </style>
+</head>
+<body>
+  <h2>Weekly Time Table</h2>
+  <table>
+    <tr>
+      <th>MONDAY</th>
+      <th>TUESDAY</th>
+      <th>WEDNESDAY</th>
+      <th>THURSDAY</th>
+      <th>FRIDAY</th>
+    </tr>
+    <tr>
+      <td>Mathematics</td>
+      <td>Operating Systems</td>
+      <td>Database Management</td>
+      <td>Computer Networks</td>
+      <td>Machine Learning</td>
+    </tr>
+    <tr>
+      <td>Data Structures</td>
+      <td>Web Development</td>
+      <td>Software Engineering</td>
+      <td>Artificial Intelligence</td>
+      <td>Cloud Computing</td>
+    </tr>
+    <tr>
+      <td>Python Lab</td>
+      <td>FSD Lab</td>
+      <td>Compiler Design</td>
+      <td>DAA Lab</td>
+      <td>Cyber Security</td>
+    </tr>
+    <tr>
+      <td>Linear Algebra</td>
+      <td>Operating Systems Lab</td>
+      <td>Big Data Analytics</td>
+      <td>Deep Learning</td>
+      <td>DSA Training</td>
+    </tr>
+    <tr>
+      <td>Ethics & Values</td>
+      <td>Communication Skills</td>
+      <td>Research Methodology</td>
+      <td>Project Work</td>
+      <td>Placement Training</td>
+    </tr>
+  </table>
+</body>
+</html>
